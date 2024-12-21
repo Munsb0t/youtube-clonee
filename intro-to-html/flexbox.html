@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Flexbox Practise
+        </title>
+        <style>
+            .a
+            {margin-top: 40px;
+                display: flex;
+                flex-direction: row;
+                height: 70px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: grey;
+                justify-content: space-between;
+                align-items: end;
+            }
+.b{
+    background-color: rgb(0, 238, 255);
+    width:100px;
+    
+
+}
+
+.c
+{
+    background-color: pink;
+    
+    width:100px;
+}
+
+.g
+{
+    background-color: yellow;
+    
+    width:100px;
+}
+
+
+
+.d
+{
+    background-color: chartreuse;
+    width: 100px;
+}
+
+.e{
+    background-color: chocolate;
+    flex: 1;
+    
+}
+
+
+.container2
+{  margin-top: 30px;   
+     display: flex;
+    flex-direction: row;
+}
+        </style>
+    </head>
+    <body style="padding-bottom: 1000px";>
+        <div class="a">
+
+            <div class="b">div 1 extra text</div>
+            <div class="c"> div 2 <p> hi</p></div>
+        </div>
+
+        <div class="container2">
+
+            <div class="d">
+                Div3
+                <p>100 px</p>
+            </div>
+            <div class="e">
+               flex 1
+            </div>
+        </div>
+        <div class="a">
+
+            <div class="b">div 1 extra text</div>
+            <div class="c"> div 2 </div>
+            <div class="g"> div 3 </div>
+        </div>
+    </body>
+</html>
